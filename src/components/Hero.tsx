@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react';
 import { Button } from './ui/button';
 import { Github, Linkedin, Twitter, Mail, ArrowDown } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
+import profile from "./../assets/profile.png";
 
 export function Hero() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -100,7 +101,7 @@ export function Hero() {
             <div className="relative inline-block">
               <div className="w-32 h-32 sm:w-40 sm:h-40 mx-auto rounded-full p-1 bg-gradient-to-r from-[#7159c1] to-[#00D2D3] shadow-2xl hover:scale-105 transition-transform duration-300">
                 <ImageWithFallback
-                  src="https://images.unsplash.com/photo-1731951039706-0e793240bb32?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZXZlbG9wZXIlMjBwcm9ncmFtbWVyJTIwcG9ydHJhaXQlMjBwcm9mZXNzaW9uYWx8ZW58MXx8fHwxNzU4Njk2MTY1fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                  src={profile}
                   alt="Matheus de Medeiros"
                   className="w-full h-full rounded-full object-cover"
                 />

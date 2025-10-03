@@ -23,25 +23,19 @@ export function Footer() {
   const socialLinks = [
     {
       icon: Github,
-      href: 'https://github.com',
+      href: 'https://github.com/matheusdemedeiros/matheusdemedeiros',
       label: 'GitHub',
       color: 'hover:text-white'
     },
     {
       icon: Linkedin,
-      href: 'https://linkedin.com',
+      href: 'https://www.linkedin.com/in/matheus-de-medeiros-a8486b11a/',
       label: 'LinkedIn',
       color: 'hover:text-[#0077B5]'
     },
     {
-      icon: Twitter,
-      href: 'https://twitter.com',
-      label: 'Twitter',
-      color: 'hover:text-[#1DA1F2]'
-    },
-    {
       icon: Mail,
-      href: 'mailto:joao@developer.com',
+      href: 'mailto:matheusdemedeiros200599@gmail.com',
       label: 'Email',
       color: 'hover:text-[#FF6B6B]'
     }
@@ -105,9 +99,9 @@ export function Footer() {
             <div>
               <h3 className="text-white font-semibold mb-4">Contato</h3>
               <div className="space-y-2 text-gray-400">
-                <p>matheus@developer.com</p>
-                <p>+55 (11) 99999-9999</p>
-                <p>São Paulo, SP</p>
+                <p>matheusdemedeiros200599@gmail.com</p>
+                <p>+55 (49) 99974-9469</p>
+                <p>Lages, SC</p>
                 <div className="mt-4">
                   <div className="flex items-center space-x-2">
                     <div className="w-2 h-2 bg-[#00D2D3] rounded-full animate-pulse"></div>
@@ -123,9 +117,7 @@ export function Footer() {
         <div className="border-t border-white/10 py-6">
           <div className="flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
             <div className="flex items-center space-x-2 text-gray-400">
-              <span>© 2025 Matheus de Medeiros. Feito com</span>
-              <Heart className="w-4 h-4 text-[#FF6B6B] fill-current animate-pulse" />
-              <span>em São Paulo</span>
+              <span>© 2025 Matheus de Medeiros.</span>
             </div>
             
             <Button

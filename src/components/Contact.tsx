@@ -37,21 +37,21 @@ export function Contact() {
     {
       icon: Mail,
       label: 'Email',
-      value: 'matheus@developer.com',
-      href: 'mailto:matheus@developer.com',
+      value: 'matheusdemedeiros200599@gmail.com',
+      href: 'mailto:matheusdemedeiros200599@gmail.com',
       color: 'text-[#FF6B6B]'
     },
     {
       icon: Phone,
       label: 'Telefone',
-      value: '+55 (11) 99999-9999',
-      href: 'tel:+5511999999999',
+      value: '+55 (49) 99974-9469',
+      href: 'tel:+5549999749469',
       color: 'text-[#00D2D3]'
     },
     {
       icon: MapPin,
       label: 'Localização',
-      value: 'São Paulo, SP - Brasil',
+      value: 'Lages, SC - Brasil',
       href: '#',
       color: 'text-[#7159c1]'
     }
