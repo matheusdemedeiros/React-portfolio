@@ -80,7 +80,6 @@ export function Hero() {
   const socialLinks = [
     { icon: Github, href: '#', label: 'GitHub', color: 'hover:text-white' },
     { icon: Linkedin, href: '#', label: 'LinkedIn', color: 'hover:text-[#0077B5]' },
-    { icon: Twitter, href: '#', label: 'Twitter', color: 'hover:text-[#1DA1F2]' },
     { icon: Mail, href: '#', label: 'Email', color: 'hover:text-[#FF6B6B]' },
   ];
 

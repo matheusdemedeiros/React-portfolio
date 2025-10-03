@@ -70,12 +70,6 @@ export function Contact() {
       href: 'https://linkedin.com',
       color: 'hover:text-[#0077B5]'
     },
-    {
-      icon: Twitter,
-      label: 'Twitter',
-      href: 'https://twitter.com',
-      color: 'hover:text-[#1DA1F2]'
-    }
   ];
 
   return (
